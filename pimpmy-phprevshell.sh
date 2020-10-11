@@ -64,7 +64,7 @@ tO9C9+Qb0UUAz0T35JvRha/vQhf45mlpXCODZ+1lS/kvbs2+vBXmVFg42tvN9hCX0t/UUsao49tZZvBi
 si6ySXXm99m1H1t+aXRU4HXOswfK+Me3A7akt0IJkOFN8JobjJo39pa2IAjRiY8d0sal9NG5WunDw0bzT/18DMMf35Bg38BTHZA/V
 cPAAA=" | gunzip )
 
-# if ipaddress or $1 command line parameter are empty error and exit
+# if $ipaddress or $1 command line parameter are empty error and exit
 if [ "$ipaddress" = "" ] || [ "$1" = "" ]
   then
     echo Error detecting interace ip address or command line port number  try again
