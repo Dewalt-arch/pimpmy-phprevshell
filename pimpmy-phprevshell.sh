@@ -9,7 +9,7 @@
 #
 # Output: revshell.php  with ipadress and port number in correct positions - ready for combat!
 #
-# Author : Dewalt
+# Author : Dewalt 
 
 # Revision number
 revision="0.2"
