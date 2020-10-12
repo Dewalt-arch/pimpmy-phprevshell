@@ -67,7 +67,7 @@ cPAAA=" | gunzip )
 # if $ipaddress or $1 command line parameter are empty error and exit
 if [ "$ipaddress" = "" ] || [ "$1" = "" ]
   then
-    echo Error detecting interace ip address or command line port number  try again
+    echo Error detecting $interface ip address or command line port number  try again
     exit 0
   else
      # if ipaddress is not empty and $1 is not empty generated revshell.php
