@@ -14,7 +14,7 @@
 #
 
 # Revision number
-revision="0.2"
+revision="1.0"
 
 # To use for a different nic interface change interface="yourinterface"
 interface="tun0"
